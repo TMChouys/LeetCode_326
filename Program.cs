@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Enter an integer to check if it is a power of three:");
             int a = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(IsPowerOfThree(a) ? "是 3 的次方" : "不是 3 的次方");
+            Console.WriteLine(IsPowerOfThree(a) ? "是 3 的冪" : "不是 3 的冪");
         }
 
         static bool IsPowerOfThree(int n)
